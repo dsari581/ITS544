@@ -33,6 +33,16 @@ CREATE TABLE IF NOT EXISTS `its544db`.`faculty` (
 ENGINE = InnoDB
 AUTO_INCREMENT = 2
 DEFAULT CHARACTER SET = utf8;
+-- -----------------------------------------------------
+-- Table `its544db`.`dorm`
+ -- Deniz and Mustafa     
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `its544db`.`dorm` (
+  `dormId` INT NOT NULL,
+  `dormName` VARCHAR(45) NULL,
+  `dormCapacity` VARCHAR(45) NULL,
+  PRIMARY KEY (`dormId`))
+ENGINE = InnoDB;
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
